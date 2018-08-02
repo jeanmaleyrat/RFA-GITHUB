@@ -1,0 +1,212 @@
+ /* General classes for page */
+
+
+body {
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: transparent;
+  color: black;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'Chela One', cursive;
+}
+
+#footer a {
+  color: #cccccc;
+}
+
+#footer a:hover {
+  color: red ;
+  text-decoration: none;
+}
+
+.social a {
+  font-size: 24px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/* Lead with big image */
+
+.container{
+  position: relative;
+  height: 450px;
+  width:50vw;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.card2 {
+    position: relative;
+}
+
+.lead h1 {
+  font-size: 72px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
+}
+
+.lead h2 {
+  }
+
+/* Vertical spacer to help content breathe */
+
+.vertical-spacer {
+  height: 8em;
+}
+
+/* Some padding for feature images */
+
+.feature img {
+  margin-bottom: 2em;
+}
+
+.feature {
+  color: #444444;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+/* How to override the default Bootstrap colors */
+
+.btn-primary {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+}
+
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent {
+  margin-bottom: : red;
+  background-color: transparent;
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: red;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    
+}
+
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+
+.item {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-right{
+  font-size:25px;
+}
+
+.modal-content{
+  background-color: rgba(255, 255, 255, 0.84);
+  border-radius: 0;
+  border: 2px solid rgba(0,0,0,1)
+}
+
+a{
+  color: red;
+  text-decoration: none;
+}
+
+
+.modalDialog {
+        position: fixed;
+        font-family:'Roboto', sans-serif;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        overflow-y: scroll;
+        
+    }
+
+    .modalDialog:target {
+        opacity:1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        background-color: rgba(255, 254, 254, 0.85);
+        border-radius: 0;
+        border: 1px solid rgba(0,0,0,1)
+        
+    }
+
+    .close {
+      position: absolute;
+  
+  /* don't need to go crazy with z-index here, just sits over .modal-guts */
+  z-index: 1;
+  
+  top: 10px;
+  
+  /* needs to look OK with or without scrollbar */
+  right: 10px;
+  
+  border: 0;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+    }
+
+
+#texteimages {
+ 
+}
+
+
